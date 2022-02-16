@@ -27,10 +27,4 @@ public class EmpController {
 	{
 		return employeeService.findByEmployeeId(empId);
 	}
-	
-	@GetMapping("/test")
-	public String hello()
-	{
-		return "Hello DevTools";
-	}
 }

@@ -8,9 +8,6 @@ import lombok.Setter;
 @Setter
 @Getter
 public class Address implements Serializable {
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -6931912742305419409L;
 	private String street;
 	private String state;
